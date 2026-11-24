@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+
+    <TITLE>FORUM - BOLD BLUE</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description"
+        content="A pseudo realistic pet raising simulation with a healthy dash of fantasy, Mweor is a game which allows you to raise, care for, spar with, and breed mweors, cat-like felines which come in various species, all for free!" />
+    <meta name="keywords"
+        content="cats, cat game, cat sim, virtual cat, mweor, pet sim, virtual pet, pet game, custom cat" />
+    <script type="text/javascript" src="https://mweor.com/js/utilities.js?5"></script>
+    <link rel="stylesheet" href="https://mweor.com/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://mweor.com/css/mweor_v2.css?5" />
+    <link rel="stylesheet" href="https://mweor.com/css/mweor_all.css?31" />
+
+    <script type="text/javascript" src="https://mweor.com/js/jquery-ui-lightbox.js"></script>
+    <script type="text/javascript" src="https://mweor.com/js/cattery.js?5"></script>
+    <script type="text/javascript" src="https://mweor.com/js/compose.js?1"></script>
+</HEAD>
+
+<BODY>
+    <div class="popup invisible" id="bookmark">
+        <div class="popup_title">Add Bookmark</div><a id="bookmarkclose">[x]</a><br>Label:
+        <input type="text" name="bookmarkname" id="bookmarkname" maxlength="100" size="30" />
+        <input type="hidden" name="bookmarkurl" id="bookmarkurl" value="/viewtopic.php?id=788260" />
+        <input type="submit" name="bookmarkbutton" id="bookmarkbutton" class="button" value="Add" />
+    </div>
+    <ul class="sf-menu">
+        <li class="current">
+            <a href="/cattery.php">Cattery</a>
+
+            <ul>
+                <li class="current">
+                    <a href="/inventory.php">Inventory</a>
+                </li>
+                <li>
+                    <a href="/yourshop.php">Your Shop</a>
+                </li>
+                <li>
+                    <a href="/mweor_items.php">Dressing Room</a>
+                </li>
+                <li>
+                    <a href="/mweor_bids.php">Mweor Bids</a>
+                </li>
+                <li>
+                    <a href="/breed.php">Breed Mweors</a>
+                </li>
+                <li>
+                    <a href="/transfers.php">Transfers</a>
+                </li>
+                <li>
+                    <a href="/messages.php">Your Messages</a>
+                </li>
+                <li>
+                    <a href="/goals">Goals & Tasks</a>
+                </li>
+                <li>
+                    <a href="/history.php">Account History</a>
+                </li>
+                <li>
+                    <a href="/cattery_upgrades.php">Cattery Upgrades</a>
+                </li>
+                <li>
+                    <a href="/cattery_order.php">Mweor Order</a>
+                </li>
+                <li>
+                    <a href="/itemlocator.php">Item Locator</a>
+                </li>
+                <li>
+                    <a href="/new.php/craftshop">Craftshop</a>
+                </li>
+                <li>
+                    <a href="/changepassword.php">Change Password</a>
+                </li>
+                <li>
+                    <a href="/mp.php">MP Center</a>
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <a href="/explore.php">Explore</a>
+            <ul>
+                <li><a href="/new.php/preserve">Mweor Preserve</a></li>
+                <li><a href="/new.php/thunder_town">Thunder Town</a></li>
+                <li><a href="/new.php/arbor_village">Arbor Village</a></li>
+                <li><a href="/avalanche">Avalanche Tunnel</a></li>
+                <li><a href="/grotto">Glacier Grotto</a></li>
+                <li>
+                    <a href="/new.php/island">Magma Isles</a>
+                </li>
+                <li>
+                    <a href="/scores.php">Score Boards</a>
+                </li>
+        </li>
+        <li>
+            <a href="/createcustom.php">Custom Generator</a>
+        </li>
+        <li>
+            <a href="/custom_designs.php">Custom Designs</a>
+        <li>
+            <a href="/dumpster.php">Dumpster</a>
+        </li>
+        <li>
+            <a href="/shops.php?id=1">Shops</a>
+
+            <ul>
+                <li class="current">
+                    <a href="/shops.php?id=1">Toy Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=3">Accessory Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=4">Jewelry Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=5">Background Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=7">This and That Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=17">Foreground Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=8">Pet Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=9">Magical Rarities Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=2">Statue Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=16">Seasonal Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=6">Suspicious Snack Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=11">Fame Shop</a>
+                </li>
+                <li>
+                    <a href="/shops.php?id=15">Pride Item Shop</a>
+                </li>
+                <li>
+                    <a href="/usershop_list.php">User Shops</a>
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <a href="/bank.php">Bank</a>
+        </li>
+        <li>
+            <a href="/trades.php">Trading Center</a>
+        </li>
+        <li>
+            <a href="/games_pawdraw.php">Games</a>
+
+            <ul>
+                <li class="current">
+                    <a href="/games_number.php">Guess the Number</a>
+                </li>
+                <li>
+                    <a href="/games_mcd.php">Mouse-Cat-Dog</a>
+                </li>
+                <li>
+                    <a href="/games_pawdraw.php">Paw Draw</a>
+                </li>
+                <li>
+                    <a href="/games_find.php">Item Hunter</a>
+                </li>
+                <li>
+                    <a href="/socialite" title="The Socialite">The Socialite</a>
+                </li>
+            </ul>
+        <li>
+            <a href="/mweorsearch.php">Searches</a>
+
+            <ul>
+                <li class="current">
+                    <a href="/usersearch.php">User Search</a>
+                </li>
+                <li>
+                    <a href="/mweorsearch.php">Mweor Search</a>
+                </li>
+                <li>
+                    <a href="/shopsearch.php">Shop Search</a>
+                </li>
+                <li>
+                    <a href="/trades.php?action=search">Trade Search</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/contest_dressup">Contests</a>
+
+            <ul>
+                <li class="current">
+                    <a href="/contest">Design Contests</a>
+                </li>
+                <li>
+                    <a href="/contest_dressup">Dressup Contests</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/bookmarks.php">Bookmarks</a>
+
+            <ul>
+                <li class="current">
+                    <a href="/viewtopic.php?id=2170">| topic | formatting</a>
+                </li>
+                <li>
+                    <a href="/viewtopic.php?id=782825">| topic | G2G</a>
+                </li>
+                <li>
+                    <a href="/viewtopic.php?id=777125">| topic | design shop</a>
+                </li>
+                <li>
+                    <a href="/viewtopic.php?id=758156">| topic | stalk list</a>
+                </li>
+                <li>
+                    <a
+                        href="/mweorsearch.php?search_type=all&mweor_name=&breed%5B%5D=1&age_min=&age_max=4&generation_min=&generation_max=1&soundness_min=&soundness_max=&level_min=&level_max=&owner=&order_by=2&search=Search">|
+                        search | newest users</a>
+                </li>
+                <li>
+                    <a
+                        href="/mweorsearch.php?search_type=all&mweor_name=&age_min=&age_max=10&generation_min=&generation_max=1&exclude_starters=1&soundness_min=&soundness_max=&level_min=&level_max=&owner=&order_by=2&search=Search">|
+                        search | newest customs</a>
+                </li>
+                <li>
+                    <a
+                        href="/mweorsearch.php?search_type=sale&sale_type=0&sale_currency=0&sale_price_min=&sale_price_max=&points_heritage_min=&points_heritage_max=&age_min=&age_max=&generation_min=&generation_max=1&soundness_min=&soundness_max=&level_min=&level_max=&mutation_min=&mutation_max=&owner=&order_by=5&search=Search">|
+                        search | customs for sale</a>
+                </li>
+                <li>
+                    <a href="/searchtopics.php?subject=mpd&author=&mweor=&board=0&search=Search">| mod | MPD</a>
+                </li>
+                <li>
+                    <a href="/searchtopics.php?start=0&subject=mdp&author=0&board=0&search=Go%21">| mod | MDP</a>
+                </li>
+                <li>
+                    <a href="/searchtopics.php?subject=delete&author=&mweor=&board=0&search=Search">| mod | delete</a>
+                </li>
+                <li>
+                    <a href="/viewtopic.php?id=783317">| code | mweor info icons</a>
+                </li>
+                <li>
+                    <a href="/mweor.php?id=8616217">mweor color insp</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    </li>
+    <li>
+        <a href="/chat.php">Community</a>
+        <ul>
+            <li class="current">
+                <a href="/chat.php">Boards/Chat</a>
+            </li>
+            <li>
+                <a href="/registries">Registries/Tribes</a>
+            </li>
+            <li>
+                <a href="/searchtopics.php">Topic Search</a>
+            </li>
+            <li>
+                <a href="/usersearch.php">User Search</a>
+            </li>
+            <li>
+                <a href="/online.php">Online Users</a>
+            </li>
+            <li>
+                <a href="/friends.php">Friends List</a>
+            </li>
+            <li>
+                <a href="/block.php">Blocked List</a>
+            </li>
+            <li>
+                <a href="/modbox">ModBox</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="/news.php">News</a>
+    </li>
+    <li>
+        <a href="/help.php">Help</a>
+        <ul>
+            <li class="current">
+                <a href="/resetcattery.php">Reset Cattery</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="/logout.php">Logout</a>
+    </li>
+    </ul>
+    <div id="bodyi"></div>
+
+    <div id="holder">
+
+        <div id="topbanner">
+
+            <img src="https://mweor.com/images/layout3/banner_top.png" id="topbanneri" class="trans">
+
+            <div id="layoutuinfo"><a href="/bank.php">Money: $0</a><span class="tip" tip="Your money is in-game currency which you can use to purchase items from various shops, feed your
+			mweors, and so on. Having trouble making money? Play games like Paw Draw and
+			Guess the Number daily for an easy way to make money!" class="trans"><img src="https://mweor.com/images/icons/q.png" width="12"
+                        height="12" class="trans"></span> || <a href="/shops.php?id=11">Fame Points: 722,373</a><span
+                    class="tip"
+                    tip="Earn fame by fighting off creatures and completing daily and weekly tasks! Fame Points can be spent in the Fame Shop."
+                    class="trans"><img src="/images/icons/q.png" width="12" height="12" class="trans"></span> || <a
+                    href="/mp.php">MP: 0</a><span class="tip" tip="MP stands for Mweor Points. This is an in-game currency which can be used to purchase 
+		special items (like statues for creating custom Mweors in the Statue Shop or leaves in the MP Item Shop). The most common way to get
+		MP is by purchasing them with USD. For more information, please visit the MP Center." class="trans"><img
+                        src="/images/icons/q.png" width="12" height="12" class="trans"></span>
+                <br />You are: cerah (#559) <a href="/modbox/helper"><span class="fa fa-info circle active"></span></a>
+            </div>
+
+            <span id="gametime">Server Time:
+                10:20:09PM 11/10/26
+            </span><img src="/images/icons/bookmark.png" width="85" height="15" id="addbookmark" class="trans" />
+        </div>
+
+        <div id="content">
+
+            <div id="contentholder">
+                <div class="spacer"></div>
+
+                <div style="text-align: center; margin: 10px;">[
+                    <a href="/newpost.php">New Topic</a> | <a href="/chat.php">Board Directory</a> | <a
+                        href="/searchtopics.php">Topic Search</a> | <a href="/yourposts.php">Your Posts</a> ]
+                </div>
+
+                <center>
+                    <table border="0" width="650" cellspacing="2" cellpadding="2">
+                        <tr>
+                            <td align="left" width="120"></td>
+                            <td align="center" width="310">
+                                <a href="newpost.php?id=27"><img src="images/icons/newtopic.png" class="trans"
+                                        width="75" height="22" border="0"></a><br><br>
+                                [<a href="topics.php?id=27">Back to Board</a>]
+                            </td>
+                            <td align="right" width="120"><a href="viewtopic.php?id=788260&start=10"><img
+                                        src="images/icons/nextarrow.png" class="trans" width="20" height="20"
+                                        border="0"></a></td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr class="theader">
+                            <td colspan="2">Candlenights '25 Statue Giveaways | Concluded!</td>
+                        </tr>
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="4">
+                                <a href="cattery.php?id=559">
+                                    <img src="https://skylarkspinner.github.io/imglib/christmas2022.png" width="100"
+                                        height="100" border="0"><br><img src="images/icons/mod_full.png" width="13"
+                                        height="13" class="trans" border="0"> <span
+                                        class="fa fa-info circle active"></span>cerah (#559)</a><br>
+                                Posts: 9,099
+                                <br><br>[<a href="viewtopic.php?id=788260&delete=yes">Delete Topic</a>]<br>
+                                [<a href="viewtopic.php?id=788260&close=yes">Close Topic</a>]<br>
+                                [<a class="launchholder" title="788260" style="cursor: pointer;">Move Topic</a>]
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/2/788260">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Post" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=0&tid=788260">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Post" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 04:23pm 11/28/25</i></span>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" align="left" height="125" class="trow3">
+                                
+<link rel="stylesheet" href="/public/assets/main.css" />
+
+<div class="cerah559">
+    Comment here!
+</div>
+                            </td>
+                        </tr>
+                        <tr class="trow2">
+                            <td valign="top" align="right" height="24">
+                                <i>Edited 14 times.
+                                    Last Edited: 11:22:44PM 01/23/26
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">◈ | she/her | have a moderation
+                            question or an issue to report? send it to the modbox!
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=63">
+                                    <img src="https://i.postimg.cc/kgkyHWH0/image-2026-06-09-173258975.png" width="100"
+                                        height="100" border="0"><br>vee ♥ (#63)</a><br>
+                                Posts: 499<br><br><a href="viewtopic.php?id=788260&replydelete=9570664">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570664">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570664">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 07:40pm 11/28/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">
+                                
+<link rel="stylesheet" href="/public/assets/main.css" />
+
+<div class="cerah559">
+    Comment here!
+</div>
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">let them ♥
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=90747">
+                                    <img src="https://66.media.tumblr.com/avatar_e3a122ffa3f4_128.pnj" width="100"
+                                        height="100" border="0"><br>laud (#90747)</a><br>
+                                Posts: 1018<br><br><a href="viewtopic.php?id=788260&replydelete=9570665">Delete
+                                    Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570665">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570665">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 07:42pm 11/28/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">oh wow, what a cool sight! i hope i can see an
+                                aurora sometime <br />
+                                <br />
+                                let's see, i guess my positive thing i'm looking forward to is that my roommates are
+                                planning to get another kitten soon! they have one cat and she's great, and she's gonna
+                                have a lil buddy before long (she is, fortunately, a cat that gets along pretty well
+                                with new cats). And who doesn't love kittens :D
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">promise it to me / promise me the sea
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=128823">
+                                    <img src="https://file.garden/aJlOkbSNKGQlwxva/pumpkin%20hope.png" width="100"
+                                        height="100" border="0"><br>Aceofstars (semi hiatus) (#128823)</a><br>
+                                Posts: 3552<br><br><a href="viewtopic.php?id=788260&replydelete=9570666">Delete
+                                    Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570666">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570666">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 07:51pm 11/28/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">Oh this is a fun tradition! I think I might’ve
+                                only caught the tail end of this last year! I can’t believe I’ve been active on mweor
+                                for almost a year now (after many years of not getting online at all haha)<br />
+                                <br />
+                                This year was pretty rough, but recently I got some possible helpful advice for my
+                                health, so I’m really hoping it’ll help me start feeling better and having more energy
+                                and less stomach issues.<br />
+                                My niece also learned how to say my name this year which has been really fun!
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">Have courage and be kind
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=170725">
+                                    <img src="https://i.imgur.com/UFZBe0Z.png" width="100" height="100"
+                                        border="0"><br>iz (#170725)</a><br>
+                                Posts: 40<br><br><a href="viewtopic.php?id=788260&replydelete=9570670">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570670">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570670">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 10:09pm 11/28/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">what a lovely tradition, and that aurora is so
+                                beautiful!<br />
+                                <br />
+                                2025 has been full of ups and downs but im aiming for a strong 2026! something im
+                                looking forward to is traveling to australia to visit my partner, it will be my first
+                                flight ever so im very nervous but excited :'D <br />
+                                <br />
+                                thank you for this opportunity! <3 </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=211737"><br>Midnight Sun (#211737)</a><br>
+                                Posts: 17<br><br><a href="viewtopic.php?id=788260&replydelete=9570683">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570683">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570683">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 11:33am 11/29/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">Wow, the aurora is so pretty! o.o<br />
+                                <br />
+                                I'm looking forward to doing some go-karting in the near future, which is something I've
+                                never done before, but it looks like lots of fun (although maybe a little scary, too..)
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">- MS
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=20350">
+                                    <img src="https://31.media.tumblr.com/07c8d822cb1f16ab656059da6bba0223/tumblr_ne517l2o6n1sk88yuo1_500.gif"
+                                        width="100" height="100" border="0"><br>Punk (#20350)</a><br>
+                                Posts: 1478<br><br><a href="viewtopic.php?id=788260&replydelete=9570685">Delete
+                                    Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570685">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570685">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 01:42pm 11/29/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">oh this is so fun (and a beautiful
+                                aurora)!!<br />
+                                <br />
+                                in 2026, i am so looking forward to getting married!! my fiancé and i both love all
+                                things space and science, so we're getting married at our local science musuem in the
+                                planetarium. i'm so excited to celebrate our love with the people we love most!
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">viva la primadonna
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=175617">
+                                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcrr4p7wzvKjouq4cj-qXeKKNQO6zfMH9DgOwdivWcwNZv2HUdew"
+                                        width="100" height="100" border="0"><br>OSForever (#175617)</a><br>
+                                Posts: 87<br><br><a href="viewtopic.php?id=788260&replydelete=9570686">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570686">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570686">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 02:04pm 11/29/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">Wow thank you for this opportunity! That aurora
+                                is beautiful!<br />
+                                <br />
+                                I have had a pretty busy year with traveling a lot! I've recently just got back on this
+                                site and it has been really nice to see that the community is still pretty active. I am
+                                looking forward to maybe taking some time off work to "recover" and spending more time
+                                with my dog and BF.
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">-Me
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=226857">
+                                    <img src="https://i.ibb.co/N2sSxwhd/Dawn-Wings-Thumb.jpg&quot;" width="100"
+                                        height="100" border="0"><br>Howling Fox ♥︎♛ (#226857)</a><br>
+                                Posts: 334<br><br><a href="viewtopic.php?id=788260&replydelete=9570687">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570687">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570687">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 04:47pm 11/29/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">This looks really fun! Looking forward to
+                                launching my first marble custom soon
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">-Fox
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=45645"><br>Conspiquis Cat Owner (#45645)</a><br>
+                                Posts: 480<br><br><a href="viewtopic.php?id=788260&replydelete=9570691">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570691">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570691">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 08:09pm 11/29/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">
+                                <3 my cats are being extra snuggly this year! Shoving thier fur in my face whenever i
+                                    lay down! Im the luckiest person:") they are always down to pur on my chest <3 </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">......just heavy, thick silence
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table width="650" cellspacing="2" cellpadding="2" border="0" class="tborder">
+                        <tr>
+                            <td class="trow1" align="center" valign="top" width="150" rowspan="3">
+                                <a href="cattery.php?id=223405">
+                                    <img src="https://i.imgur.com/1PsiTA0.png" width="100" height="100"
+                                        border="0"><br>arthur ♥ - (41/55 mp!) (#223405)</a><br>
+                                Posts: 712<br><br><a href="viewtopic.php?id=788260&replydelete=9570693">Delete Reply</a>
+                            </td>
+                            <td class="trow2" valign="top" align="right" height="12" width="400">
+                                <span style="float: left;">
+                                    <a id="reportplayer" href="/modbox/index/3/9570693">
+                                        <img src="images/icons/report.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Report Reply" style="cursor: pointer;">
+                                    </a>
+                                    <a href="edittopic.php?ttype=1&tid=9570693">
+                                        <img src="images/icons/edit.png" class="trans tip" border="0" width="12"
+                                            height="12" tip="Edit Reply" style="cursor: pointer;">
+                                    </a>
+                                </span>
+
+                                <span style="float: right;">
+                                    <i>Posted On: 09:07pm 11/29/25</i>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="trow3">
+                            <td valign="top" align="left" height="125">hi!! I'm looking forward to getting engaged to my
+                                beloved girlfriend this upcoming year. we will be together three years in January and
+                                she's everything I could ever want. I adore her and she makes me so happy. <br />
+                                <br />
+                                thank you so much for this opportunity and I hope you have a lovely holiday!
+                            </td>
+                        </tr>
+                        <td class="trow1" valign="top" align="right" height="12">(he/him)
+                        </td>
+                        </tr>
+                    </table><br>
+                    <table border="0" width="650" cellspacing="2" cellpadding="2">
+                        <tr>
+                            <td align="left" valign="top" width="120"></td>
+                            <td align="center" valign="middle" width="310">Viewing Page 1<br><i>Displaying 1 to 10 out
+                                    of 55 replies!</i><br><br>
+                                <form action="viewtopic.php" method="get">
+                                    <b>Skip to:</b> <select name="start">
+
+                                        <option value="0">Page 1</option>
+                                        <option value="10">Page 2</option>
+                                        <option value="20">Page 3</option>
+                                        <option value="30">Page 4</option>
+                                        <option value="40">Page 5</option>
+                                        <option value="50">Page 6</option>
+                                    </select>
+                                    <input type="hidden" name="id" value="788260">
+                                    <input class="button" type="submit" value="Go!">
+                                </form>
+                            </td>
+                            <td align="right" width="120" valign="top"><a href="viewtopic.php?id=788260&start=10"><img
+                                        src="images/icons/nextarrow.png" class="trans" width="20" height="20"
+                                        border="0"></a></td>
+                        </tr>
+                    </table><br><br>
+                    <form action="viewtopic.php?id=788260" method="post">
+                        <table border="0" cellspacing="2" cellpadding="2" class="tborder" width="510">
+                            <tr class="theader">
+                                <td colspan="4">Post Reply</td>
+                            </tr>
+
+                            <tr class="trow1">
+                                <td valign="top" width="60"><b>Post:</b></td>
+                                <td width="450" colspan="3"><textarea cols="70" rows="20" name="message"></textarea>
+                                </td>
+                            </tr>
+                            <tr class="trow2">
+                                <td align="center" colspan="4">
+                                    <input type="submit" name="bump" value="Bump!" class="button">
+                                    <input type="submit" name="preview" value="Preview" class="button">
+                                    <input type="submit" name="post" value="Post" class="button">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+            </div>
+        </div>
+        <div id="bottombanner">
+            <img src="/images/layout3/banner_bottom.png" class="trans" id="bottombanneri">
+        </div>
+
+        <div id="footer">
+            <div class="social_media">
+                <a href="http://www.twitter.com/mweor" border="0"><img src="/images/icons/twitter.png" width="40"
+                        height="40" /></a>
+                <a href="http://www.facebook.com/mweorgame" border="0"><img src="/images/icons/fb.png" width="40"
+                        height="40" /></a>
+                <a href="http://www.instagram.com/officialmweor" border="0"><img src="/images/icons/ig.png" width="40"
+                        height="40" /></a>
+            </div>
+            Copyright &copy; 2008-2026 Mweor LLC. All rights reserved.<br>
+            Use of this site signifies your acceptance and agreement to our Terms of Service.<br>
+            [<a href="/logout.php">Logout</a>]
+            [<a href="/tos.php">Terms of Service</a>]
+            [<a href="/credits.php">Credits</a>]
+            [<a href="/index.php">Index</a>]
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-9863925-1");
+            pageTracker._trackPageview();
+        } catch (err) { }</script>
+    <div class="popup" id="popup">
+        <div class="popup_title"></div><a class="popupclose" id="popupclose">[x]</a>
+        <div class="popup_content" id="popup_content">
+            <center>
+                <div style="clear: both; position: relative; top: 9px;" id="fullview"></div>
+            </center>
+        </div>
+        <div class="spacer" style="width: 300px;"></div>
+    </div>
+    <div id="popup_fade_background"></div>
+    <div id="move_topic_dialog" title="Move Topic Tool">
+        Topic #<input type='text' id='move_tid' maxlength='11' size='10'> to
+        <select id='move_bid'>
+
+            <option value="1">News</option>
+            <option value="2">Meowing Spot</option>
+            <option value="3">Help</option>
+            <option value="4">Art Nook</option>
+            <option value="5">Other Games</option>
+            <option value="6">Moderator Nook</option>
+            <option value="7">Suggestions</option>
+            <option value="8">Bug Board</option>
+            <option value="9">Available Mates</option>
+            <option value="10">Bad Topics Board</option>
+            <option value="11">Mweor Sales</option>
+            <option value="12">Advertising</option>
+            <option value="13">Art Sales</option>
+            <option value="14">City Park</option>
+            <option value="15">Abandoned Estate</option>
+            <option value="16">City Slums</option>
+            <option value="17">Northern Suburbs</option>
+            <option value="18">Blue Heron Open Space</option>
+            <option value="19">General Talk</option>
+            <option value="21">Games!</option>
+            <option value="22">Songbird Forest</option>
+            <option value="23">Tribe Discussion</option>
+            <option value="24">Contests and Raffles</option>
+            <option value="25">Brag Board</option>
+            <option value="26">Roleplaying Board</option>
+            <option value="27">Giveaway Board</option>
+            <option value="28">Registry Discussion</option>
+            <option value="29">Newbie Helper Haven</option>
+        </select>
+    </div>
+    <div id="modtools_holder" class="formholder">
+        <div class="title">Moderator Tools</div>
+        <a href="/modbox/category/new"><span class="fa fa-flag-o"></span>ModBox</a>
+        <a href="/ipcheck.php"><span class="fa fa-laptop"></span>IP Checker</a>
+        <a id="modtool_history"><span class="fa fa-clock-o"></span>Player History</a>
+        <a id="modtool_warn"><span class="fa fa-ban"></span>Warn/Comment</a>
+        <a id="modtool_clear"><span class="fa fa-eraser"></span>Clearer</a>
+    </div>
+
+    <div id="modtool_history_dialog" class="hide" title="Player History">
+        <div>
+            Player #: <input class="find_player" size="6" /> <span class="find_result"></span>
+        </div>
+        <div>
+            <button class="button" id="history_search">Search</button>
+        </div>
+        <div class="result">
+
+        </div>
+    </div>
+
+
+
+    <div id="modtool_warn_dialog" class="hide" title="Warn/Comment">
+        <div id="warn_response_box" class="hide"></div>
+        <table class="info_table" id="modtool_warn_table">
+            <tr>
+                <th>Player #: </th>
+                <td><input type="text" id="warn_user_id" class="find_player" size="6" /> <span
+                        class="find_result"></span></td>
+            </tr>
+            <tr>
+                <th>Report ID#: </th>
+                <td><input type="text" name="warn_report_id" id="warn_report_id" size="11" /> <span
+                        style="margin-left: 10px;">Please provide if possible.</span></td>
+            </tr>
+            <tr>
+                <th>Type: </th>
+                <td><input type="radio" name="warn_category" value="0" checked="checked" class="radio_warn_category"
+                        id="warn_category_0" /><label for="warn_category_0">Comment</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio" name="warn_category" value="1" class="radio_warn_category"
+                        id="warn_category_1" /><label for="warn_category_1">Warning</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio" name="warn_category" value="3" class="radio_warn_category"
+                        id="warn_category_3" /><label for="warn_category_3">Suspension</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio" name="warn_category" value="4" class="radio_warn_category"
+                        id="warn_category_4" /><label for="warn_category_4">Close Account</label>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr id="subcat_row" class="hide">
+                <th>Category: </th>
+                <td><input type="radio" name="warn_subcategories" value="0" class="radio_warn_subcategories"
+                        id="warn_subcategories_0" /><label for="warn_subcategories_0">Poor
+                        Conduct</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="warn_subcategories" value="1"
+                        class="radio_warn_subcategories" id="warn_subcategories_1" /><label
+                        for="warn_subcategories_1">Spamming</label>&nbsp;&nbsp;&nbsp;<input type="radio"
+                        name="warn_subcategories" value="2" class="radio_warn_subcategories"
+                        id="warn_subcategories_2" /><label for="warn_subcategories_2">Scamming</label>&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr id="severity_row" class="hide">
+                <th>Severity: </th>
+                <td><input type="radio" name="warn_severities" value="0" class="radio_warn_severities"
+                        id="warn_severities_0" /><label for="warn_severities_0">Verbal</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio" name="warn_severities" value="1" class="radio_warn_severities"
+                        id="warn_severities_1" /><label for="warn_severities_1">1st
+                        Degree</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="warn_severities" value="2"
+                        class="radio_warn_severities" id="warn_severities_2" /><label for="warn_severities_2">2nd
+                        Degree</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="warn_severities" value="3"
+                        class="radio_warn_severities" id="warn_severities_3" /><label for="warn_severities_3">3rd
+                        Degree</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="warn_severities" value="4"
+                        class="radio_warn_severities" id="warn_severities_4" /><label for="warn_severities_4">4th
+                        Degree</label>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr id="suspension_row" class="hide">
+                <th>Length: </th>
+                <td><input type="radio" name="warn_suspensions" value="0" class="radio_warn_suspensions"
+                        id="warn_suspensions_0" /><label for="warn_suspensions_0">5 min</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio" name="warn_suspensions" value="1" class="radio_warn_suspensions"
+                        id="warn_suspensions_1" /><label for="warn_suspensions_1">30 min</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio" name="warn_suspensions" value="2" class="radio_warn_suspensions"
+                        id="warn_suspensions_2" /><label for="warn_suspensions_2">1 hour</label>&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr id="explanation_row">
+                <th>Explanation: </th>
+                <td><textarea id="warn_explanation" rows="8"
+                        cols="50">You are receiving this warning because... That behavior is not allowed on Mweor because...</textarea>
+                </td>
+            </tr>
+            <tr id="comment_row">
+                <th>Comment: </th>
+                <td><textarea id="warn_comment" rows="8" cols="50"></textarea></td>
+            </tr>
+            <tr id="close_row" class="hide">
+                <th>Note:</th>
+                <td><span class="bold_small">ONLY use this option to close excessive accounts. Check account history
+                        prior to closing an account to make sure no comments indicating that there are multiple players
+                        within the same household exist.</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="button" id="warn_submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div id="modtool_clear_dialog" class="hide" title="Resetter">
+        <div id="reset_response_box" class="hide"></div>
+        <table class="info_table" id="mod_resetter_table">
+            <tr>
+                <th>Category: </th>
+                <td><input type="radio" name="reset_category" value="0" checked="checked" class="radio_reset_category"
+                        id="reset_category_0" /><label for="reset_category_0">User</label>&nbsp;<input type="radio"
+                        name="reset_category" value="1" class="radio_reset_category" id="reset_category_1" /><label
+                        for="reset_category_1">Mweor</label>&nbsp;<input type="radio" name="reset_category" value="2"
+                        class="radio_reset_category" id="reset_category_2" /><label
+                        for="reset_category_2">Registry/Tribe</label>&nbsp;</td>
+            </tr>
+            <tr id="category_thing_row">
+                <th><span id="category_label"></span> ID#: </th>
+                <td><input type="text" id="thing_id" class="find_player" size="6" /> <span class="find_result"></span>
+                </td>
+            </tr>
+            <tr id="reset_row">
+                <th>Reset: </th>
+                <td id="reset_options">
+                    <div id="reset_holder_0" class="reset_holder">
+                        <div><input type="checkbox" name="user_reset_options" value="0"
+                                id="user_reset_options_0" /><label for="user_reset_options_0">User Name</label></div>
+                        <div><input type="checkbox" name="user_reset_options" value="7"
+                                id="user_reset_options_7" /><label for="user_reset_options_7">User Avatar</label></div>
+                        <div><input type="checkbox" name="user_reset_options" value="1"
+                                id="user_reset_options_1" /><label for="user_reset_options_1">User Signature</label>
+                        </div>
+                        <div><input type="checkbox" name="user_reset_options" value="2"
+                                id="user_reset_options_2" /><label for="user_reset_options_2">User Cattery
+                                Name/Description</label></div>
+                        <div><input type="checkbox" name="user_reset_options" value="8"
+                                id="user_reset_options_8" /><label for="user_reset_options_8">User Cattery Tabs</label>
+                        </div>
+                        <div><input type="checkbox" name="user_reset_options" value="3"
+                                id="user_reset_options_3" /><label for="user_reset_options_3">User Shop</label></div>
+                        <div><input type="checkbox" name="user_reset_options" value="4"
+                                id="user_reset_options_4" /><label for="user_reset_options_4">All Owned Mweors</label>
+                        </div>
+                        <div><input type="checkbox" name="user_reset_options" value="5"
+                                id="user_reset_options_5" /><label for="user_reset_options_5">All Owned Trade/Offer
+                                Comments</label></div>
+                        <div><input type="checkbox" name="user_reset_options" value="6"
+                                id="user_reset_options_6" /><label for="user_reset_options_6">User Newbie Helper</label>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div id="reset_holder_1" class="reset_holder hide">
+                        <div><input type="checkbox" name="mweor_reset_options" value="0"
+                                id="mweor_reset_options_0" /><label for="mweor_reset_options_0">Mweor Name</label></div>
+                        <div><input type="checkbox" name="mweor_reset_options" value="1"
+                                id="mweor_reset_options_1" /><label for="mweor_reset_options_1">Mweor
+                                Description</label></div>
+                        <div><input type="checkbox" name="mweor_reset_options" value="2"
+                                id="mweor_reset_options_2" /><label for="mweor_reset_options_2">Mweor
+                                Personality/Background</label></div>
+                        <div></div>
+                    </div>
+                    <div id="reset_holder_2" class="reset_holder hide">
+                        <div><input type="checkbox" name="registry_reset_options" value="0"
+                                id="registry_reset_options_0" /><label for="registry_reset_options_0">Registry
+                                Name</label></div>
+                        <div><input type="checkbox" name="registry_reset_options" value="1"
+                                id="registry_reset_options_1" /><label for="registry_reset_options_1">Registry
+                                Descriptions</label></div>
+                        <div><input type="checkbox" name="registry_reset_options" value="2"
+                                id="registry_reset_options_2" /><label for="registry_reset_options_2">Register
+                                Questions</label></div>
+                        <div><input type="checkbox" name="registry_reset_options" value="3"
+                                id="registry_reset_options_3" /><label for="registry_reset_options_3">Ranks</label>
+                        </div>
+                        <div></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="button" id="mod_reset" value="Reset Selected" /></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="/js/modstuff.js?3"></script>
+</body>
+
+</html>

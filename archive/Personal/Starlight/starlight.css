@@ -5,10 +5,10 @@
 	BY:	#559
 	DATE:	2024/02/08
 ************************************************/
-@import url("https://biwhaleshark.github.io/CSShiny/core.css");
+@import url("https://skylarkspinner.github.io/CSShiny/core.css");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-@import url("https://biwhaleshark.github.io/CSShiny/components/carousel_slider.css");
-@import url("https://biwhaleshark.github.io/CSShiny/components/mweorBox.css");
+@import url("https://skylarkspinner.github.io/CSShiny/components/carousel_slider.css");
+@import url("https://skylarkspinner.github.io/CSShiny/components/mweorBox.css");
 :root:has(#layout-toggle:checked) {
     --dkteal:	#003b43;
     --ltteal:	#cfd3d4;
@@ -35,7 +35,7 @@
     );
     --contentholder-bg: transparent;
     --descbox-bg: var(--white);
-    --descbox-img: url("https://raw.githubusercontent.com/biwhaleshark/CSShiny/main/Personal/Starlight/images/bg_vertical.jpg");
+    --descbox-img: url("https://raw.githubusercontent.com/skylarkspinner/CSShiny/main/Personal/Starlight/images/bg_vertical.jpg");
     --shadow: 5px 5px 8px #001e27;
     --border: 1px solid #ffffff75;
     --corner-gradient:
@@ -229,7 +229,7 @@
     border: 0px solid transparent;
 }
 :root:has(#layout-toggle:checked) .ui-widget-header {
-    background: url("https://raw.githubusercontent.com/biwhaleshark/CSShiny/main/Personal/Starlight/images/bg_horizontal.png") !important;
+    background: url("https://raw.githubusercontent.com/skylarkspinner/CSShiny/main/Personal/Starlight/images/bg_horizontal.png") !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;

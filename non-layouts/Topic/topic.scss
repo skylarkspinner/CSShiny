@@ -1,0 +1,91 @@
+table.tborder:has(.cerah559) {
+    background: url("https://skylarkspinner.github.io/CSShiny/layouts/Starlight/images/bg_vertical.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    font-size: 14px !important;
+
+    * {
+        font-size: inherit !important;
+        line-height: 1.3;
+    }
+
+    .theader + tr .trow1,
+    tbody > tr .trow1 {
+        background: linear-gradient( 135deg, #003b43 0px, #001018 100px, #001018 155px, #441416 155px, #441416 185px, transparent 185px );
+        border: none !important;
+    }
+
+    td {
+        height: fit-content;
+    }
+
+    .theader,
+    .trow1,
+    .trow1 table,
+    .trow1 tr,
+    .trow1 td {
+        background: #003b43;
+        color: contrast-color(#003b43);
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #ffffff75;
+
+        a,
+        a:link,
+        a:visited {
+            color: contrast-color(#003b43);
+
+            &:hover,
+            &:active,
+            &:focus {
+                text-decoration: underline;
+                color: var(--link-dark) !important;
+            }
+        }
+    }
+
+    .trow2,
+    .trow2 td {
+        background: rgba(#cfd3d4, 0.2) !important;
+        color: contrast-color(black);
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 12px !important;
+        border: 1px solid #ffffff75;
+
+        td {
+            background: transparent !important;
+        }
+    }
+
+    .trow3:has(.cerah559),
+    .trow3 td:has(.cerah559) {
+        background: url("https://skylarkspinner.github.io/CSShiny/layouts/Starlight/images/bg_vertical.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-attachment: fixed;
+
+        @media (prefers-reduced-motion: reduce) {
+            background-attachment: scroll !important;
+        }
+
+        .cerah559 {
+            max-width: 100%;
+            margin: 1rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 15px;
+
+            & > * {
+                max-width: 100%;
+            }
+
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+}

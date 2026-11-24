@@ -8,11 +8,11 @@
 
 // Core Imports
 //@import "../../scss/core";
-@import url("https://biwhaleshark.github.io/CSShiny/core/core.css");
+@import url("https://skylarkspinner.github.io/CSShiny/core/core.css");
 //@import "../../scss/blocks/slider";
-@import url("https://biwhaleshark.github.io/CSShiny/core/blocks/slider.css");
+@import url("https://skylarkspinner.github.io/CSShiny/core/blocks/slider.css");
 //@import "../../scss/components/mweor_box";
-@import url("https://biwhaleshark.github.io/CSShiny/core/components/mweor_box.css");
+@import url("https://skylarkspinner.github.io/CSShiny/core/components/mweor_box.css");
 
 // Font Imports
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
@@ -43,7 +43,7 @@
     );
     --contentholder-bg: transparent;
     --descbox-bg: var(--white);
-    --descbox-img: url("https://biwhaleshark.github.io/CSShiny/layouts/Starlight/images/bg_vertical.jpg");
+    --descbox-img: url("https://skylarkspinner.github.io/CSShiny/layouts/Starlight/images/bg_vertical.jpg");
     --shadow: 5px 5px 8px #001e27;
     --border: 1px solid #ffffff75;
     --corner-gradient: linear-gradient(135deg, #00262f 0%, #00262f 8%, #681312 8%, #681312 12%, transparent 12%);
@@ -267,7 +267,7 @@
     }
 
     .ui-widget-header {
-        background: url("https://biwhaleshark.github.io/CSShiny/layouts/Starlight/images/bg_horizontal.png") !important;
+        background: url("https://skylarkspinner.github.io/CSShiny/layouts/Starlight/images/bg_horizontal.png") !important;
         background-size: cover !important;
         background-position: center !important;
         background-attachment: fixed !important;
